@@ -1,0 +1,45 @@
+let constvotes= ["yes","no","yes","yes","no"];
+
+let khalid =constvotes.reduce((acc,x)=>{
+    if(!acc[x]){
+        acc[x]=0;
+    }
+    acc[x]+=1;
+    return acc;
+},{})
+console.log(khalid);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
